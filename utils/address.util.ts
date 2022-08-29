@@ -3,7 +3,7 @@ import hre from "hardhat";
 import path from "path";
 
 export const getAddressPath = (networkName = hre.network.name) =>
-  path.join(__dirname, `../address-lists/${networkName}`);
+  path.join(__dirname, `../address-lists/${networkName}.json`);
 
 export const getAddressList = (
   networkName = hre.network.name
