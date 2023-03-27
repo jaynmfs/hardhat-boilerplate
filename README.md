@@ -1,4 +1,4 @@
-# Hardhat Project Boilerplate
+# X Token
 
 ## Prerequisites
 
